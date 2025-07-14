@@ -100,8 +100,8 @@ function downloadPDF() {
 
   const html = `
 <div class="pdf-header">
-  US Army<br/>
-  Navy Seals – United States Navy Sea, Air, and Land
+  Federal Investigation Bureau<br/>
+  Federal Investigation Bureau Camper Einsatzberichte
 </div>
 <hr/>
 
@@ -132,9 +132,9 @@ function downloadPDF() {
 <p>${urteilText||''}</p>
 <hr/>
 
-<strong>Unterschrift Einsatzleitung Seals:</strong><br/>
+<strong>Unterschrift FIB Agent:</strong><br/>
 <div class="signature">${leitung}</div>
-<p>Navy Seals – US Army</p>`;
+<p>FIB – Federal Investigation Bureau</p>`;
 
   const container = document.createElement('div');
   container.className = 'pdf-content';
